@@ -3,6 +3,7 @@
 #f4e6ac
 #bbded6
 #96bb7c
+#70af85
 
 ## fonts:
 font-family: 'Love Ya Like A Sister', cursive;
