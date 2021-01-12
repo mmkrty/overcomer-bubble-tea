@@ -48,6 +48,7 @@ h3 {
     background: #70af85;
     justify-content:space-evenly;
     padding: 0.5rem 1rem;
+    flex-wrap: wrap;
     
     position: fixed;
     top: 0;
@@ -66,7 +67,7 @@ h3 {
 }
 
 .header-img {
-    border: 2rem solid white ;
+    border: 1rem solid white ;
     box-shadow: 5px 10px 18px #888888;
     max-width: 100%;
     height: auto;
@@ -198,4 +199,49 @@ th, td {
     color:  #fcf6e8;
     border: 1rem solid white ;
     box-shadow: 5px 10px 18px #888888;
+}
+
+
+/* contact */
+#contact {
+    background:#fcf6e8 ;
+    padding: 2rem 0;
+}
+
+#contact h2 {
+    color: #96bb7c;
+    
+}
+
+.contact-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.contact-map{
+    margin: 1rem 2rem;
+    border: 1rem solid white ;
+    box-shadow: 5px 10px 18px #888888;
+   
+
+}
+
+
+
+
+.contact-detail {
+    text-align: left;
+    font-size: 1.2rem;
+    line-height: 1.5;
+
+    padding: 2rem;
+    margin: 2rem 2rem;
+    color:  #fcf6e8;
+    border: 1rem solid white ;
+    box-shadow: 5px 10px 18px #888888;
+    background:#96bb7c ;
+    
+
 }
