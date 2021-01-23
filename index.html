@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Overcomer Bubble Tea</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Quicksand:wght@400;700&family=Roboto+Slab:wght@400;700&display=swap"
         rel="stylesheet">
@@ -15,7 +16,7 @@
     <div class="wrapper">
 
 
-        <nav>
+        <!-- <nav>
             <ul class="nav-bar">
                 <li><a href="#header">Home</a></li>
                 <li><a href="#info">Info</a></li>
@@ -24,7 +25,46 @@
                 <li><a href="#about">About</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-        </nav>
+        </nav> -->
+
+        <nav class="navbar navbar-expand-lg  navbar-light fixed-top navbar-custom">
+            <div class="container-fluid">
+              <!-- <a class="navbar-brand" href="#">Overcomer</a> -->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#header">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#info">Info</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#menu">Speisekarte</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#reviews">Reviews</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+
+                 
+                </ul>
+                
+              </div>
+            </div>
+          </nav>
+
+
+
+
+
 
         <header>
             <div id="header">
@@ -389,6 +429,10 @@
 
         <section id="reviews">
             <h2>Reviews</h2>
+            <div class="reviews-widget">
+                <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+                <div class="elfsight-app-724db8c7-a688-4a14-a29b-d0cb26cdbfb2"></div>
+            </div>
         </section>
 
         <section id="about">
@@ -425,6 +469,8 @@
         <footer></footer>
 
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 </body>
 
 </html>
