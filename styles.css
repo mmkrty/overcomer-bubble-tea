@@ -47,6 +47,8 @@ h3 {
 
 
 /* navbar */
+
+
 /* .nav-bar {
     display: flex;
     font-size: 1.5rem;
@@ -77,6 +79,29 @@ h3 {
 
 .navbar-custom a {
     margin: 0 1rem;
+}
+
+/* navbar button hover effect */
+.button-hover {
+    position: relative ;
+    cursor: pointer;
+}
+
+.button-hover::before {
+  content: " ";
+  position:absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 3px;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: transform 300ms ease-in-out;
+    transform: scaleX(0);
+}
+
+.button-hover:hover::before, .btn:focus::before{
+    transform: scaleX(1);
+    
 }
 
 
