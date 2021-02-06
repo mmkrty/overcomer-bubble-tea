@@ -24,7 +24,7 @@ h1 {
     font-family: 'Righteous', cursive;
     font-size: 5rem;
     color: #96bb7c;
-    
+
 
 }
 
@@ -46,6 +46,26 @@ h3 {
 
 img{
    max-width: 100%;
+}
+
+
+.container-custom {
+    padding: 4rem 0;
+    text-align: center;
+ 
+}
+
+.container-custom-narrow {
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.bg-matcha {
+    background-color:  rgba(150, 187, 124, 0.9);
+}
+
+.bg-milk {
+    background: #fcf6e8;
 }
 
 /* navbar */
@@ -91,11 +111,9 @@ img{
 
 
 /* header */
-#header {
-    /* height: 100vh; */
-    text-align: center;
-    background: #fcf6e8;
-    padding: 4rem 0;
+.header-text {
+    -webkit-text-fill-color: #96bb7c;
+    -webkit-text-stroke: 2px black;
 }
 
 .header-img {
@@ -115,12 +133,6 @@ img{
 }
 
 /* info section */
-
-#info {
-    text-align: center;
-    padding: 3rem 0;
-    background: #fcf6e8;
-}
 
 .info-content {
     padding-top:2rem;
@@ -144,11 +156,6 @@ img{
 
 
 /* menu */
-#menu {
-    background:#96bb7c ;
-    text-align: center;
-    padding: 3rem 0;
-}
 
 #menu h2 {
     padding-bottom: 1rem;
@@ -193,10 +200,6 @@ th, td {
 }
 
 /* gallery */
-#gallery {
-    background:#96bb7c ;
-    padding: 2rem;
-}
 
 #gallery h2 {
     margin-bottom: 2rem;
@@ -205,7 +208,6 @@ th, td {
 
 
 #gallery img {
-  
       -webkit-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
       -moz-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
       box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
@@ -217,10 +219,7 @@ th, td {
 
 
 /* reviews */
-#reviews {
-    background:#96bb7c ;
-    padding: 2rem;
-}
+
 #reviews h2 {
     margin-bottom: 2rem;
 }
@@ -229,11 +228,6 @@ th, td {
 
 
 /* about */
-#about {
-    background:#fcf6e8 ;
-    padding: 2rem 0;
-}
-
 
 .about-content {
     display: flex;
@@ -256,10 +250,6 @@ th, td {
 
 
 /* contact */
-#contact {
-    background:#fcf6e8 ;
-    padding: 2rem 0;
-}
 
 
 .contact-content {
@@ -271,8 +261,6 @@ th, td {
 
 .contact-map{
     margin: 2rem 1rem;
-
-   
 
 }
 
@@ -286,9 +274,6 @@ th, td {
     margin: 2rem 2rem;
     color:  #fcf6e8;
     background:#96bb7c ;
-   
-    
-
 }
 
 @media screen and (max-width: 900px) {
@@ -296,6 +281,12 @@ th, td {
         width: 15%;
         margin:0 auto;
     }
+
+    .container-custom-narrow {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    
 }
 
 
