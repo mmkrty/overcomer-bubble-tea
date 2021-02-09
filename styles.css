@@ -83,13 +83,23 @@ img{
 
 /* navbar */
 
+.navbar-nav { /* center nav-bar */
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+
+.navbar-nav > li { /* center nav-bar */
+    display: inline-block;
+    float:none;
+}
 
 .navbar-custom {
     background-color:  rgba(150, 187, 124, 0.9);
     font-size: 1rem;
     font-family: 'Roboto Slab', serif;
     box-shadow: 0 8px 6px -6px #888888;
-  
 }
 
 .navbar-custom a {
@@ -247,10 +257,6 @@ th, td {
 
 
 @media screen and (max-width: 900px) {
-    .button-hover::before {
-        width: 15%;
-        margin:0 auto;
-    }
 
     .container-custom-narrow {
         padding-left: 3rem;
